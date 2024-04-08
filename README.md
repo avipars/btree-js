@@ -1,5 +1,9 @@
 # btree-js
-Demo: **[JS BTree](http://yangez.github.io/btree-js/)**
+Demo: **[JS BTree](https://avi.is-a.dev/btree-js/)**
+
+Fork of this: https://github.com/s1pz/btree-js (added delete node button) which is a fork of this https://github.com/yangez/btree-js (original)
+
+I added: mobile view and tried to update the webpage minorly
 
 This is [Allen Chang](https://github.com/voxlol) and [Eric Yang](http://www.eric-y.com)'s javascript implementation for [B-tree](https://en.wikipedia.org/wiki/B-tree) of order 3 and above.
 
