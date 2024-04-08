@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   font-size: 16px;
   line-height: 1.5em;
   width: 100%;
@@ -14,13 +15,15 @@ body, html {
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
+
     h1 {
       margin-bottom: 30px;
+
       .label {
         font-size: 12px;
         position: relative;
         bottom: 16px;
-        font-weight:400;
+        font-weight: 400;
         // display: none;
 
         #order-display {
@@ -29,8 +32,9 @@ body, html {
       }
     }
 
-    #create-form  {
+    #create-form {
       display: none;
+
       input[type=text] {
         width: 30px;
         padding: 3px 7px;
@@ -47,7 +51,10 @@ body, html {
       stroke: steelblue;
       stroke-width: 3px;
     }
-    text { font: 15px sans-serif; }
+
+    text {
+      font: 15px sans-serif;
+    }
   }
 
 
@@ -59,8 +66,10 @@ body, html {
 }
 
 #popup {
-  width: 400px; height: 350px;
-  display: block; position: fixed;
+  width: 400px;
+  height: 350px;
+  display: block;
+  position: fixed;
   bottom: -350px;
   right: 0;
   font-size: 12px;
@@ -69,19 +78,31 @@ body, html {
   border-radius: 4px;
   background: #fff;
   transition: 0.2s bottom;
-  p { margin: 15px 20px; }
+
+  p {
+    margin: 15px 20px;
+  }
 }
 
 .note {
   display: block;
   position: fixed;
-  bottom: 2px; right: 6px;
+  bottom: 2px;
+  right: 6px;
   text-align: right;
   font-size: 12px;
   transition: 0.2s color;
   z-index: 3;
+
   &:hover {
     text-decoration: none;
   }
 }
-#close-this { display: none; }
+
+#close-this {
+  display: none;
+}
+
+.github-fork-ribbon:before {
+  background-color: #333;
+}
